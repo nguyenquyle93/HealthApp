@@ -1,0 +1,34 @@
+  
+  .layout {
+    min-height: 100vh;
+  }
+
+  body {
+    margin: 0;
+  }
+  
+  .ant-progress-circle,.ant-progress-circle-path {
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 1px #ffcc21, 0 0 2px #ffcc21;
+  }
+  
+  @font-face {
+    font-family: "Noto_Sans_JP";
+    src: local("Noto_Sans_JP"),
+      url(./fonts/Noto_Sans_JP/NotoSansJP-Regular.otf) format("opentype");
+  }
+  
+  @font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+      url(./fonts/Inter/static/Inter-Light.ttf) format("opentype");
+  }
+  
+  .en {
+    font-family: "Inter";
+  }
+  
+  .ja {
+    font-family: "Noto_Sans_JP";
+  }
+  
